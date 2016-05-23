@@ -1,0 +1,205 @@
+html {
+	background-image: url('http://www.painter1.com/wp-content/uploads/2016/03/North-Salt-Lake-City-Image.jpg');
+}
+
+.logo {
+	float: top;
+	font-size: 48px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	line-height: 44px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+.nav {
+	text-align: right;
+}
+.nav li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+
+}
+.nav li:last-child {
+	margin-right: 0;
+}
+ul {
+	list-style: none;
+}
+
+
+.primary-header a, a:link
+ {
+ 	background-color: white;
+	color: black;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+a:active {
+    text-decoration: none;
+}
+a:hover {
+	color: #51E5F3;
+}
+.container {
+	margin:0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 960px;
+
+}
+.primary-nav {
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+}
+.row-alt {
+	background: white;
+	min-width: 960px;
+	background: -webkit-linear-gradient(to top, #8AFFFE, #FFE0D0);
+	background: -moz-linear-gradient(to top, #8AFFFE, #FFE0D0 );
+	background: linear-gradient(to top, #8AFFFE, #FFE0D0 );
+	padding: 44px 0 22px 0;
+	border-radius: 5px;
+}
+
+.lead{
+	text-align: center;
+}
+.lead p {
+	font-size: 21px;
+	line-height: 33px;
+}
+form {
+	margin-bottom: 22px;
+}
+input,
+select, label,
+textarea {
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: 2px solid #c6c9cc;
+	border-radius: 5px;
+	color: #888;
+	display: block;
+	margin: 5px 0 27px 0;
+	padding: 5px 8px;
+	background-color: white;
+}
+.skill{
+	border-radius: 5px;
+	background: white;
+	min-width: 960px;
+	background: -webkit-linear-gradient(to left top, #8AFFFE, #FFE0D0);
+	background: -moz-linear-gradient(to left top, #8AFFFE, #FFE0D0 );
+	background: linear-gradient(to left top, #8AFFFE, #FFE0D0 );
+	padding: 44px 0 22px 0;
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+/*.skill2{
+	border-radius: 5px;
+	background: white;
+	min-width: 960px;
+	background: -webkit-linear-gradient(to left , #8AFFFE, #FFE0D0);
+	background: -moz-linear-gradient(to left , #8AFFFE, #FFE0D0 );
+	background: linear-gradient(to left , #8AFFFE, #FFE0D0 );
+	padding: 44px 0 22px 0;
+	margin-top: 40px;
+	text-align: center;
+}*/
+.center, h4{
+	text-align: center;
+	
+}
+
+.row-alt2 {
+	background: white;
+	min-width: 960px;
+	background: -webkit-linear-gradient(to left, #8AFFFE, #FFE0D0);
+	background: -moz-linear-gradient(to left, #8AFFFE, #FFE0D0 );
+	background: linear-gradient(to left, #8AFFFE, #FFE0D0 );
+	padding: 20px 0 22px 0;
+	border-radius: 5px;
+}
+.btn {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: #c6c9cc;
+}
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.btn2{
+	margin-top: 200px;
+	margin-left: 500px;
+	position: relative;
+    background-color: white;
+    border: 1px;
+    font-size: 28px;
+    color: black;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn2:after {
+    content: "";
+    background: #51E5F3;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.butn2:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
